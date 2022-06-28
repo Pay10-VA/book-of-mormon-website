@@ -10,9 +10,9 @@
 #header {
   display: inline-flex;
   width: 100%;
-  background-color: #001638;
+  background-color: #191919;
   /*color: #FEFE69;*/
-  color: #f5f53d;
+  color: #fec58b;
 }
 
 .quote {
@@ -24,11 +24,15 @@
 
 #headerLeft {
   padding-left: 10px;
-  width: 50%;
+  width: 40%;
 }
 
 #header-title {
-  font-size: 40px;
+  font-size: 60px;
+  border-top: solid;
+  border-bottom: solid;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .events {
@@ -39,13 +43,12 @@
 
 #headerRight {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   width: 60%;
   padding-top: 5px;
-  margin-right: 20px;
+  text-align: right;
 }
-
-
 
 .menu-item {
   font-size: 25px;
@@ -81,7 +84,7 @@
 #learn-more {
   text-align: center;
   margin-top: 60px;
-  padding-top: 10px;
+  padding-top: 80px;
   margin-bottom: 40px;
   border-top: solid;
 }
@@ -112,13 +115,25 @@
   margin-top: 60px;
 }
 
+a {
+  color: #fec58b !important;
+}
+
+a:hover {
+  color: #fec58b !important;
+}
+
+a:visited {
+  color: #fec58b !important;
+}
+
 .section-header {
   color: #001638 !important;
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
   border-top: solid;
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 30px;
 }
 
@@ -174,12 +189,12 @@
 footer {
   height: 90px;
   width: 100%;
-  background-color: #001638;
-  margin-top: 30px;
+  background-color: #191919;
+  margin-top: 80px;
   display: flex;
 }
 
 footer > h2 {
-  color: #f5f53d;
+  color: #fec58b;
   text-align: center;
 }

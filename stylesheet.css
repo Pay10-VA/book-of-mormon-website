@@ -1,0 +1,185 @@
+* {
+  /*font-family: 'Ubuntu', sans-serif;*/
+  scroll-margin-top:110px;
+}
+
+.read-now-button {
+  background-color: #011638 !important;
+}
+
+#header {
+  display: inline-flex;
+  width: 100%;
+  background-color: #001638;
+  /*color: #FEFE69;*/
+  color: #f5f53d;
+}
+
+.quote {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#headerLeft {
+  padding-left: 10px;
+  width: 50%;
+}
+
+#header-title {
+  font-size: 40px;
+}
+
+.events {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#headerRight {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding-top: 5px;
+  margin-right: 20px;
+}
+
+
+
+.menu-item {
+  font-size: 25px;
+}
+
+.carouselImg {
+  width: 90%;
+  height: 500px;
+}
+
+#intro {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.events {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.explore-button {
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 100%;
+  background-color: white;
+  color: #011638;
+}
+
+#learn-more {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  border-top: solid;
+}
+
+#explore-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#button-anchor {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#intro-paragraph {
+  margin-top: 60px;
+}
+
+.section-header {
+  color: #001638 !important;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top: solid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#featured-talks {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+#talks-row {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#other-books {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#book-row {
+  width: 100%;
+  display: inline-flex;
+  align-items: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-img {
+  width: 100%;
+}
+
+.book {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-item {
+  width: 45%;
+}
+
+.center-div {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+footer {
+  height: 90px;
+  width: 100%;
+  background-color: #001638;
+  margin-top: 30px;
+  display: flex;
+}
+
+footer > h2 {
+  color: #f5f53d;
+  text-align: center;
+}

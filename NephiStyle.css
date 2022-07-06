@@ -65,6 +65,12 @@ a:visited {
   margin-right: 20px;
 }
 
+.center-div {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 img {
   width: 25% !important;
 }

@@ -122,6 +122,19 @@ img {
   align-items: center;
 }
 
+#helaman-warriors {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#helaman-warriors > img {
+  width: 50% !important;
+}
+
+
+
 footer {
   height: 90px;
   width: 100%;

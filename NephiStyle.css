@@ -6,6 +6,28 @@ a {
   color: #fec58b !important;
 }
 
+#credits-div {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.credit {
+  margin-right: auto;
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.credit-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 a:hover {
   color: #fec58b !important;
 }

@@ -13,6 +13,16 @@ a {
   margin-top: 50px;
 }
 
+#event-pic-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#event-pic-div > img {
+  width: 80% !important;
+}
+
 .credit {
   margin-right: auto;
   margin-top: 30px;
